@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django settings
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Static files (CSS, JavaScript, Images)
+/staticfiles/
+/media/
+
+# Uploaded media
+/media/user_uploads/
+
+# Virtual environment
+venv/
+.env
+
+# Dependency directories
+/lib/
+/bin/
+/include/
+/Scripts/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
